@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>
+    HTML 
+  </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <style>
+    p{
+      font-size: 16px;
+      font-weight: solid;
+      
+    }
+    .htmlcontent{
+      width: 650px;
+      text-decoration: none;
+    }
+    .p1,.p2,.p3,.p4{
+      
+      display: inline;
+      line-height: 22px;
+      
+    }
+    .pp{
+      text-decoration: none;
+    }
+    a{
+      text-decoration: none;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="htmlcontent">
+    <div class="p1">
+    <p>
+      Hypertext Markup Language (HTML) is the standard <a href="https://en.wikipedia.org/wiki/Markup_language" target="_blank">  markup language</a> for 
+      documents designed to be displayed in a <a href="https://en.wikipedia.org/wiki/Web_browser" target="_blank">web browser.</a> 
+      It defines the content and structure of <a href="https://en.wikipedia.org/wiki/Web_content" target="_blank">web content.</a>  It is often assisted
+       by technologies such as <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">Cascading Style Sheets</a>  (CSS)
+      and <a href="https://en.wikipedia.org/wiki/Scripting_language">scripting languages</a>  such as 
+      <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> , a programming language.
+    </p>
+    </div>
+    <div class="p2">
+    <p>
+      <a href="https://en.wikipedia.org/wiki/Web_browser">Web browsers</a> receive HTML
+       documents from a <a href="https://en.wikipedia.org/wiki/Web_server">web server</a> or from local 
+      storage and <a href="https://en.wikipedia.org/wiki/Browser_engine">render</a>  the documents into multimedia web pages.
+      HTML describes the structure of a <a href="https://en.wikipedia.org/wiki/Semantic_Web">web page semantically</a>  and originally included cues for its
+       appearance.
+    </p>
+    </div>
+    <div class="p3">
+    <p>
+      <a  href="https://en.wikipedia.org/wiki/HTML_element">HTML elements</a>  are the
+       building blocks of HTML pages. With HTML constructs, <a href="https://en.wikipedia.org/wiki/HTML_element#Images_and_objects"> images</a> and
+        other objects such as <a href="https://en.wikipedia.org/wiki/HTML_element#Forms">interactive forms</a>  
+      may be embedded into the rendered page. HTML provides a means to create <a href="https://en.wikipedia.org/wiki/Structured_document">structured documents</a>  by denoting structural
+      <a href="https://en.wikipedia.org/wiki/Semantics">semantics</a> 
+      for text such as headings, paragraphs, lists, <a href="https://en.wikipedia.org/wiki/Hyperlink">links</a> , quotes, and other items. HTML elements are delineated by tags, written 
+      using <a href="https://en.wikipedia.org/wiki/Bracket#Angle_brackets">angle brackets</a> . Tags such as 	&lt;p&gt;  and &lt;input&gt; directly introduce content into the page. Other tags such as &lt;p&gt; 
+      and &lt;&#47;p&gt; surround and provide information about document text and may include sub-element tags.
+      <a href="https://en.wikipedia.org/wiki/Web_browser">Browsers</a>  do not display the 
+      HTML tags but use them to interpret the content of the page.
+    </p>
+    </div>
+    <div class="p4">
+    <p>
+      HTML can embed programs written in a <a href="https://en.wikipedia.org/wiki/Scripting_language">scripting language</a> such as
+      <a href="https://en.wikipedia.org/wiki/JavaScript" >JavaScript</a>, 
+      which affects the behavior and content of web pages. The inclusion of CSS
+       defines the look and layout of content. The <a href="https://en.wikipedia.org/wiki/World_Wide_Web_Consortium"> World Wide Web Consortium</a> (W3C),
+        former maintainer of the HTML and current maintainer of the CSS
+       standards, has 
+        encouraged the use of   <a href="https://en.wikipedia.org/wiki/CSS">CSS</a> over explicit presentational HTML since 1997.[3] A 
+        form of HTML, known as <a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a>, is used to display video and audio, primarily 
+        using the &lt;canvas&gt; element, together with JavaScript.
+    </p>
+    </div>
+    </div>
+  </body>
+</html>
