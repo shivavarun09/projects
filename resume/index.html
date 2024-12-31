@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .logos {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        display: inline-block;
+        margin-left: 20px;
+        transition: box-shadow 0.25s;
+      }
+      .logos:hover{
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+      }
+      .menugrid {
+        width: 100%;
+        background-color: whitesmoke;
+      }
+      .page {
+        display: grid;
+        grid-template-columns: 90px 1fr;
+        column-gap: 20px;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        background-color: whitesmoke;
+      }
+      footer {
+        text-align: center;
+        margin-top: 30px;
+      }
+      .flogos {
+        width: 50px;
+        height: 50px;
+      }
+      .title {
+        text-align: center;
+      }
+      .headimg {
+        width: 400px;
+        height: 70px;
+        object-fit: cover;
+      }
+      .name {
+        font-size: 40px bold;
+        color: lightblue;
+      }
+      .position {
+        color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">
+      <p>
+        <span class="name">Varun</span>
+        <sub class="position">Aspiring frontend developer</sub>
+      </p>
+    </div>
+
+    <div class="page">
+      <div class="menugrid">
+        <a href="home.html" target="contentframe" width="100%">
+          <img class="logos" src="homelogo.png" alt="home" />
+        </a>
+
+        <a href="aboutme.html" target="contentframe" width="100%">
+          <img class="logos" src="aboutmelogo.png" alt="home" />
+        </a>
+        <a href="skills.html" target="contentframe" width="100%">
+          <img class="logos" src="skillslogo.png" alt="home" />
+        </a>
+        <a href="projects.html" target="contentframe" width="100%">
+          <img class="logos" src="projectlogo.png" alt="home" />
+        </a>
+        <a href="certificate.html" target="contentframe" width="100%">
+          <img class="logos" src="certificatelogo.png" alt="home" />
+        </a>
+        <a href="myresume.html" target="contentframe" width="100%">
+          <img class="logos" src="resumelogo.png" alt="home" />
+        </a>
+        <a href="tel:0000000000">
+          <img class="logos" src="contactlogo.png" alt="home" />
+        </a>
+      </div>
+      <div class="info">
+        <iframe name="contentframe" src="home.html" frameborder="0"></iframe>
+      </div>
+    </div>
+    <footer>
+      <a href="https://github.com/">
+        <img class="flogos" src="githublogo.png" alt="githublogo" />
+      </a>
+      <a href="https://in.linkedin.com/">
+        <img class="flogos" src="linkdlnlogo.png" alt="linkdlnlogo" />
+      </a>
+      <a href="mailto:samplemail@gmail.com">
+        <img class="flogos" src="maillogo.png" alt="maillogo" />
+      </a>
+    </footer>
+  </body>
+</html>
